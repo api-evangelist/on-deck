@@ -1,7 +1,26 @@
 aid: on-deck
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/on-deck.png
 name: On Deck
-description: On Deck is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  On Deck (now operating as the On Deck Founder Fellowship, ODF) is a founder
+  fellowship and startup community program that helps aspiring entrepreneurs
+  start companies through an intense, in-person cohort experience focused on
+  meeting co-founders, exploring ideas, and gaining conviction. Backed by Canaan
+  Partners, On Deck provides mentorship, a peer community, and startup perks. It
+  is a program and community platform rather than a developer or API product: as
+  of this enrichment pass it publishes no public developer API, API
+  documentation, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/on-deck/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Founder Fellowship
+- Startup Accelerator
+- Community
+- Entrepreneurship
+- Venture-Backed
+- Education
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/on-deck-domain-security.yml
+- type: Website
+  url: https://joinodf.com/
+- type: TermsOfService
+  url: https://www.joinodf.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.joinodf.com/privacy-policy
+- type: SignUp
+  url: https://form.fillout.com/t/x2fuWdEqkSus
+- type: Support
+  url: https://admissions.joinodf.com/
+- type: Community
+  url: https://community.joinodf.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
